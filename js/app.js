@@ -19,9 +19,7 @@ const showProducts = (products) => {
       <p>Rating: ${product.rating['rate']}</p>
       <P>Review: ${product.rating['count']} users</p>
       <h2>Price: $ ${product.price}</h2>
-      <div class = "footer">
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn-sm  ">add to cart</button>
-      </div>
       
       `;
     document.getElementById("all-products").appendChild(div);

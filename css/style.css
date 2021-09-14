@@ -1,7 +1,11 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-background-color: rgb(252, 252, 252) !important;
+background-color: rgba(74, 116, 146, 0.445) !important;
+}
+#header{
+  font-size:40px;
+  color: rgb(136, 8, 78);
 }
 #all-products {
   display: grid;
@@ -16,6 +20,7 @@ background-color: rgb(252, 252, 252) !important;
 }
 .product{
   height: 100%;
+
 }
 .single-product {
   background-color: rgb(234, 244, 245);
@@ -46,6 +51,7 @@ background-color: rgb(252, 252, 252) !important;
   padding-right: 30px;
 }
 #addToCart-btn{
+  margin-top: 40px;
   background-color: rgb(33, 141, 130) ;
   color: white;
   padding: 8px 15px;
@@ -54,12 +60,14 @@ background-color: rgb(252, 252, 252) !important;
 
 }
 
+
 #buy-btn{
   background-color: rgb(33, 141, 130);
   color: white;
   padding: 4px 9px;
   border-radius: 9px;
   text-transform: uppercase;
+
 }
 @media only screen and (max-width: 768px) {
   #all-products {
